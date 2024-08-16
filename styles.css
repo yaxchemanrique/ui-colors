@@ -1,0 +1,330 @@
+:root {
+  --hue: 254;
+  --chroma: 0.1;
+  --chroma-1: 0.1;
+}
+
+input[type='range'] {
+  width: 300px;
+}
+
+.color-maps-contaner {
+  display: flex;
+}
+
+.color-map {
+  width: 200px;
+  background-color: hotpink;
+}
+
+.color {
+  height: 60px;
+  border: 1px solid white;
+}
+
+/* .color-map-1 {
+  .color-1 {
+    background-color: oklch(0.5 var(--chroma) var(--hue));
+  }
+  .color-2 {
+    background-color: oklch(0.9 var(--chroma) var(--hue));
+  }
+  .color-3 {
+    background-color: oklch(0.8 var(--chroma) var(--hue));
+  }
+  .color-4 {
+    background-color: oklch(0.7 var(--chroma) var(--hue));
+  }
+  .color-5 {
+    background-color: oklch(0.6 var(--chroma) var(--hue));
+  }
+  .color-6 {
+    background-color: oklch(0.5 var(--chroma) var(--hue));
+  }
+  .color-7 {
+    background-color: oklch(0.4 var(--chroma) var(--hue));
+  }
+  .color-8 {
+    background-color: oklch(0.3 var(--chroma) var(--hue));
+  }
+  .color-9 {
+    background-color: oklch(0.2 var(--chroma) var(--hue));
+  }
+  .color-10 {
+    background-color: oklch(0.1 var(--chroma) var(--hue));
+  }
+} */
+
+.color-map-1 {
+  .color-1 {
+    background-color: oklch(0.65 0.3 var(--hue));
+  }
+  .color-2 {
+    background-color: oklch(0.99 0.03 var(--hue));
+  }
+  .color-3 {
+    background-color: oklch(0.95 0.06 var(--hue));
+  }
+  .color-4 {
+    background-color: oklch(0.88 0.12 var(--hue));
+  }
+  .color-5 {
+    background-color: oklch(0.80 0.14 var(--hue));
+  }
+  .color-6 {
+    background-color: oklch(0.74 0.16 var(--hue));
+  }
+  .color-7 {
+    background-color: oklch(0.68 0.19 var(--hue));
+  }
+  .color-8 {
+    background-color: oklch(0.63 0.2 var(--hue));
+  }
+  .color-9 {
+    background-color: oklch(0.58 0.21 var(--hue));
+  }
+  .color-10 {
+    background-color: oklch(0.53 0.20 var(--hue));
+  }
+  .color-11 {
+    background-color: oklch(0.49 0.19 var(--hue));
+  }
+  .color-12 {
+    background-color: oklch(0.42 0.17 var(--hue));
+  }
+  .color-13 {
+    background-color: oklch(0.35 0.15 var(--hue));
+  }
+  .color-14 {
+    background-color: oklch(0.27 0.12 var(--hue));
+  }
+  .color-15 {
+    background-color: oklch(0.20 0.09 var(--hue));
+  }
+  .color-16 {
+    background-color: oklch(0.11 0.05 var(--hue));
+  }
+}
+
+.color-map-2 {
+  --hue-2: 50;
+  .color-1 {
+    background-color: oklch(0.65 0.3 var(--hue-2));
+  }
+  .color-2 {
+    background-color: oklch(0.99 0.03 var(--hue-2));
+  }
+  .color-3 {
+    background-color: oklch(0.95 0.06 var(--hue-2));
+  }
+  .color-4 {
+    background-color: oklch(0.88 0.12 var(--hue-2));
+  }
+  .color-5 {
+    background-color: oklch(0.80 0.14 var(--hue-2));
+  }
+  .color-6 {
+    background-color: oklch(0.74 0.16 var(--hue-2));
+  }
+  .color-7 {
+    background-color: oklch(0.68 0.19 var(--hue-2));
+  }
+  .color-8 {
+    background-color: oklch(0.63 0.2 var(--hue-2));
+  }
+  .color-9 {
+    background-color: oklch(0.58 0.21 var(--hue-2));
+  }
+  .color-10 {
+    background-color: oklch(0.53 0.20 var(--hue-2));
+  }
+  .color-11 {
+    background-color: oklch(0.49 0.19 var(--hue-2));
+  }
+  .color-12 {
+    background-color: oklch(0.42 0.17 var(--hue-2));
+  }
+  .color-13 {
+    background-color: oklch(0.35 0.15 var(--hue-2));
+  }
+  .color-14 {
+    background-color: oklch(0.27 0.12 var(--hue-2));
+  }
+  .color-15 {
+    background-color: oklch(0.20 0.09 var(--hue-2));
+  }
+  .color-16 {
+    background-color: oklch(0.11 0.05 var(--hue-2));
+  }
+}
+/*
+.color-map-3 {
+  --hue-2: 10;
+  .color-0 {
+    background-color: oklch(0.65 0.3 var(--hue-2));
+  }
+  .color-1 {
+    background-color: oklch(1 0.03 var(--hue-2));
+
+  }
+  .color-2 {
+    background-color: oklch(1 0.24 var(--hue-2));
+
+  }
+  .color-3 {
+    background-color: oklch(0.95 0.33 var(--hue-2));
+
+  }
+  .color-4 {
+    background-color: oklch(0.90 0.38 var(--hue-2));
+
+  }
+  .color-5 {
+    background-color: oklch(0.85 0.43 var(--hue-2));
+
+  }
+  .color-6 {
+    background-color: oklch(0.80 0.46 var(--hue-2));
+
+  }
+  .color-7 {
+    background-color: oklch(0.75 0.48 var(--hue-2));
+
+  }
+  .color-8 {
+    background-color: oklch(0.70 0.50 var(--hue-2));
+
+  }
+  .color-9 {
+    background-color: oklch(0.65 0.51 var(--hue-2));
+
+  }
+  .color-10 {
+    background-color: oklch(0.60 0.52 var(--hue-2));
+
+  }
+  .color-11 {
+    background-color: oklch(0.55 0.53 var(--hue-2));
+  }
+  .color-12 {
+    background-color: oklch(0.50 0.52 var(--hue-2));
+
+  }
+  .color-13 {
+    background-color: oklch(0.45 0.51 var(--hue-2));
+
+  }
+  .color-14 {
+    background-color: oklch(0.40 0.50 var(--hue-2));
+
+  }
+  .color-15 {
+    background-color: oklch(0.35 0.48 var(--hue-2));
+
+  }
+  .color-16 {
+    background-color: oklch(0.30 0.46 var(--hue-2));
+
+  }
+  .color-17 {
+    background-color: oklch(0.25 0.43 var(--hue-2));
+
+  }
+  .color-18 {
+    background-color: oklch(0.2 0.38 var(--hue-2));
+
+  }
+  .color-19 {
+    background-color: oklch(0.15 0.33 var(--hue-2));
+
+  }
+  .color-20 {
+    background-color: oklch(0.1 0.24 var(--hue-2));
+
+  }
+  .color-21 {
+    background-color: oklch(0.05 0.03 var(--hue-2));
+  }
+}*/
+
+.color-map-3 {
+  --hue-2: 10;
+  .color-0 {
+    background-color: oklch(0.65 0.3 var(--hue-2));
+  }
+  .color-1 {
+    background-color: oklch(0.95 0.03 var(--hue-2));
+
+  }
+  .color-2 {
+    background-color: oklch(0.90 0.13 var(--hue-2));
+
+  }
+  .color-3 {
+    background-color: oklch(0.85 0.22 var(--hue-2));
+
+  }
+  .color-4 {
+    background-color: oklch(0.80 0.30 var(--hue-2));
+
+  }
+  .color-5{
+    background-color: oklch(0.75 0.37 var(--hue-2));
+
+  }
+  .color-6 {
+    background-color: oklch(0.70 0.43 var(--hue-2));
+
+  }
+  .color-7 {
+    background-color: oklch(0.65 0.47 var(--hue-2));
+  }
+  .color-8 {
+    background-color: oklch(0.60 0.50 var(--hue-2));
+
+  }
+  .color-9  {
+    background-color: oklch(0.55 0.52 var(--hue-2));
+
+  }
+  .color-10 {
+    background-color: oklch(0.50 0.53 var(--hue-2));
+
+  }
+  .color-11 {
+    background-color: oklch(0.45 0.52 var(--hue-2));
+
+  }
+  .color-12 {
+    background-color: oklch(0.40 0.5 var(--hue-2));
+
+  }
+  .color-13 {
+    background-color: oklch(0.35 0.47 var(--hue-2));
+
+  }
+  .color-14 {
+    background-color: oklch(0.30 0.43 var(--hue-2));
+
+  }
+  .color-15 {
+    background-color: oklch(0.25 0.37 var(--hue-2));
+
+  }
+  .color-16 {
+    background-color: oklch(0.20 0.30 var(--hue-2));
+
+  }
+  .color-17 {
+    background-color: oklch(0.15 0.22 var(--hue-2));
+
+  }
+  .color-18 {
+    background-color: oklch(0.10 0.13 var(--hue-2));
+
+  }
+  .color-19 {
+    background-color: oklch(0.05 0.03 var(--hue-2));
+
+  }
+}
